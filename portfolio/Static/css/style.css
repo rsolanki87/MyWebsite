@@ -1,0 +1,424 @@
+/*----------------------------- Start body -----------------------------*/
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #393F4D;
+    font-family: 'Raleway', 'sans-serif';
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #D4D4DC;
+}
+
+h1 {
+    font-size: calc(24px + ((100vw - 320px) / 1280) * (40 - 24));
+}
+
+h3 {
+    font-size: calc(21px + ((100vw - 320px) / 1280) * (32 - 21));
+}
+
+h4 {
+    font-size: calc(20px + ((100vw - 320px) / 1280) * (28 - 20));
+}
+
+h5 {
+    font-size: calc(18px + ((100vw - 320px) / 1280) * (22 - 18));
+}
+
+body {
+    font-size: calc(16px + ((100vw - 320px) / 1280) * (18 - 16));
+}
+
+/*----------------------------- End body -----------------------------*/
+
+/*----------------------------- Start navbar -----------------------------*/
+
+.container-lg {
+    background-color: #1D1E22;
+}
+
+.header-social-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.header-social-links a {
+    color: #FEDA6A;
+}
+
+/*----------------------------- End navbar -----------------------------*/
+
+/*----------------------------- Start header and about me -----------------------------*/
+
+.jumbotron {
+    background-color: #1D1E22;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 320px) {
+    .header-img {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+        height: auto;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .header-img {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 23.5%;
+        height: auto;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header-img {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 21.5%;
+        height: auto;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .header-img {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        height: auto;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header-img {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 18%;
+        height: auto;
+        border-radius: 50%;
+    }
+}
+
+.media-body {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.about-me {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-me p {
+    text-align: center;
+    color: #D4D4DC;
+    padding: 15px;
+}
+
+@media screen and (min-width: 320px) {
+    .about-me p {
+        padding: 5px 10px 5px 10px;
+    }
+}
+
+.btn {
+    background-color: #1D1E22;
+    color: #FEDA6A;
+    display: inline-block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1);
+            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1);
+}
+
+.btn:hover {
+    color: #D4D4DC;
+}
+
+/*----------------------------- End header and about me -----------------------------*/
+
+/*----------------------------- Start skills -----------------------------*/
+
+.container-skills {
+    color: #D4D4DC;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-skills p {
+    padding-bottom: 10px;
+}
+
+.container-skills .row {
+    color: #D4D4DC;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 10px;
+}
+
+.container-skills .row .col-lg-2 {
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1);
+            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1);
+    background: #1D1E22;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 6px 15px;
+}
+
+@media screen and (min-width: 320px) {
+    .container-skills .row {
+        column-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .container-skills .row {
+        column-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container-skills .row {
+        column-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container-skills .row {
+        column-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container-skills .row {
+        column-gap: 10px;
+    }
+}
+
+/*----------------------------- End skills -------------------------------*/
+
+/*----------------------------- Start education and experience -------------------------------*/
+
+.container-edu .col-lg-6 {
+    position: relative;
+    width: 100%;
+    background-color: #393F4D;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.container-edu .title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container-edu .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    color: #D4D4DC;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #D4D4DC;
+    position: relative;
+}
+
+.row .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #393F4D;
+    border: 2px solid #D4D4DC;
+}
+
+.row .resume-item:last-child {
+    padding-bottom: 0;
+}
+
+.container-edu .resume-title {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.container-edu .resume-item h4 {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.container-edu .resume-item h5 {
+    font-size: 16px;
+    padding: 5px 15px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.container-edu .resume-item p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.container-edu .resume-item ul {
+    padding-left: 20px;
+}
+
+.container-edu .resume-item ul li {
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width: 320px) {
+    .container-edu {
+        margin-top: -40px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .container-edu {
+        margin-top: -40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container-edu {
+        margin-top: -40px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container-edu {
+        margin-top: -20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container-edu {
+        margin-top: 0;
+    }
+}
+
+/*----------------------------- End education and experience -------------------------------*/
+
+/*----------------------------- Start projects -------------------------------*/
+
+.container-projects .title {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.card {
+    background-color: #1D1E22;
+    color: #D4D4DC;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1);
+            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*----------------------------- End projects -------------------------------*/
+
+/*----------------------------- Start get in touch -------------------------------*/
+
+.contact h1 {
+    text-align: center;
+    padding: 30px 0 5px 0;
+}
+
+.contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contact p {
+    color: #D4D4DC;
+    text-align: center;
+}
+
+.contact p a {
+    color: #FEDA6A;
+}
+
+.contact .contact.list-inline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+
+.contact .contact.list-inline a {
+    color: #FEDA6A;
+    font-size: 1.5rem;
+}
+
+/*----------------------------- End get in touch -------------------------------*/
+
+/*----------------------------- Start footer -------------------------------*/
+
+footer p {
+    color: #D4D4DC;
+    text-align: center;
+    font-size: 10px;
+}
+
+/*----------------------------- End footer -------------------------------*/

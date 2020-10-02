@@ -1,0 +1,216 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ronnie's Resume</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
+
+
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
+
+</head>
+
+<body>
+
+    <!-- Static Navbar -->
+    <div class="container-lg justify-content-between">
+        <div class="header-social-links">
+          <a class="nav-item nav-link" href="https://www.linkedin.com/in/ronniesolanki/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a class="nav-item nav-link" href="mailto:rhsolanki87@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+          <a class="nav-item nav-link" href="https://github.com/rsolanki87" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+
+    <!-- Static Navbar End -->
+
+    <!-- Header and About Me section -->
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <img src="{% static 'images/img-main.jpg' %}" class="header-img" alt="Ronnie Solanki">
+            <div class="media-body">
+                <h1>Hello, I'm Ronnie Solanki</h1>
+                <h3>Mechanical Engineer</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-me">
+        <h1>About Me</h1>
+        <p>
+            Hello, my name is Ronnie Solanki and I have a BS in Mechanical Engineering from the University of South Florida and a
+        Master's degree in Unmanned Systems from Embry-Riddle Aeronautical University.  While in grad school, I had an internship
+        where I began to develop an interest in programming because I was able to watch my supervisor create numerous programs that
+        brought automation to the manufacturing facility.  During my internship, I was able to achieve a basic level of proficiency
+        with C # and C ++ because some of the projects I was involved in used those languages.  Recently, I have started developing my
+        programming/coding skills in order to become a self-taught programmer.  Currently, I have become highly proficient with Python,
+        developing numerous projects using this language and plan on designing more projects using it.  I also plan on further developing
+        my skills with C # and C ++ in the very near future.
+        </p>
+        <a href="../static/files/Ronnie Solanki Resume_2020.pdf" target="_blank">
+            <button class="btn"><i class="fa fa-download"></i> Open Resume</button>
+        </a>
+    </div>
+
+    <!-- End Header and About Me section -->
+
+    <!-- Skills -->
+
+    <div class="container container-skills">
+        <h1>Skills</h1>
+        <p>Here is a list of skills I learned in college, learned throughout my internship, and ones that were self-taught:</p>
+        <div class="row">
+            <div class="col-4 col-sm-3 col-md-3 col-lg-2">SolidWorks</div>
+            <div class="col-4 col-sm-3 col-md-3 col-lg-2">AutoCad</div>
+            <div class="col-4 col-sm-3 col-md-3 col-lg-2">LabVIEW</div>
+            <div class="col-4 col-sm-3 col-md-3 col-lg-2">MS Office</div>
+
+            <div class="w-100 d-none d-lg-block"></div>
+
+            <div class="col-4 col-sm-3 col-md-3 col-lg-2">MATLAB</div>
+            <div class="col-4 col-sm-3 col-md-3 col-lg-2">Creo</div>
+            <div class="col-4 col-sm-3 col-md-3 col-lg-2">Python</div>
+            <div class="col-4 col-sm-3 col-md-3 col-lg-2">NumPy</div>
+            <div class="col-4 col-sm-3 col-md-3 col-lg-2">C #</div>
+
+            <div class="w-100 d-none d-lg-block"></div>
+
+            <div class="col-4 col-sm-3 col-md-3 col-lg-2">C ++</div>
+            <div class="col-4 col-sm-3 col-md-3 col-lg-2">HTML5</div>
+            <div class="col-4 col-sm-3 col-md-3 col-lg-2">CSS</div>
+            <div class="col-4 col-sm-3 col-md-3 col-lg-2">Bootstrap</div>
+        </div>
+    </div>
+
+    <!-- End Skills -->
+
+    <!-- Education and Experience-->
+
+    <div class="container container-edu">
+        <h1 class="title">Education and Experience</h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <h3 class="resume-title">Education</h3>
+                <div class="resume-item">
+                    <h4>Master of Science Unmanned Systems</h4>
+                    <h5>Jan. 2017 - Sept. 2019</h5>
+                    <p><em>Embry-Riddle Aeronautical University</em></p>
+                    <p>GPA: 4.0 (with Distinction)</p>
+                </div>
+                <div class="resume-item">
+                    <h4>Bachelor of Science Mechanical Engineering</h4>
+                    <h5>Jan. 2009 - Dec. 2011</h5>
+                    <p><em>University of South Florida</em></p>
+                    <p>GPA: 3.26</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h3 class="resume-title">Work Experience</h3>
+                <div class="resume-item">
+                    <h4>Internet Assessor</h4>
+                    <h5>May 2020 - Present</h5>
+                    <p><em>Lionbridge Technologies, Remote</em></p>
+                    <p></p>
+                    <ul>
+                        <li>Analyzed and provided quality assurance feedback on search engine queries</li>
+                        <li>Consistently maintained a 90%-95% accuracy rating</li>
+                    </ul>
+                    <p></p>
+                </div>
+                <div class="resume-item">
+                    <h4>Test Engineering Intern</h4>
+                    <h5>Sept. 2018 - Dec. 2018</h5>
+                    <p><em>Safran Electrical and Power, Sarasota, FL</em></p>
+                    <p></p>
+                    <ul>
+                        <li>Developed and fabricated an automated epoxy dispenser for production floor to increase process efficiency</li>
+                        <li>Designed, fabricated and tested an automated test equipment (ATE) to perform push/pull tests of circuit breakers
+                            coming off 700, 1200 and 3-phase lines to determine they passed force required to trip breaker.  Fabricated acrylic
+                            temperature control enclosures for ATE to optimize test engineering
+                        </li>
+                        <li>Utilized Creo to 3D print prototypes, components, tools and fixtures for development and production projects</li>
+                    </ul>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Education and Experience -->
+
+    <!-- Projects -->
+
+    <div class="container container-projects">
+        <h1 class="title">Programming Projects</h1>
+
+        <div class="card-deck">
+
+             <div class="card">
+                <img src="{% static 'images/coding_img.png' %}" class="card-img-top" alt="coding image">
+                <div class="card-body">
+                    <h5 class="card-title">Personal Website</h5>
+                    <p class="card-text">Framework was built using Python and Django.  Additionally, a mixture of HTML5 and Bootstrap
+                    were also used to design the sites framework.  CSS was then used to style my personal website to my likeness.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="{% static 'images/learning_log.png' %}" class="card-img-top" alt="learning log image">
+                <div class="card-body">
+                    <h5 class="card-title">Blog</h5>
+                    <p class="card-text">A blog titled "Learning Log" where users can register to the site, create topics to their liking,
+                    and then document their progress on said topic.  The users posts are also date and time stamped so they can keep track
+                    of what they've documented and go back to specific posts if necessary.  Created a "superuser" in order to access all
+                    parts of the site and manage any permissions.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="{% static 'images/alien_inv.png' %}" class="card-img-top" alt="alien invasion">
+                <div class="card-body">
+                    <h5 class="card-title">Alien Invasion</h5>
+                    <p class="card-text">Created the game using Pygame and is similar to "Space Invaders."  Game ends when the player runs out
+                    of lives(ships) or when the player quits the game.  Destroying alien ships increases the user's score and that is continuously
+                    tallied throughout their playthrough.  Also, when a high score is established, it remains displayed at the top right of the screen
+                    for reference.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Projects -->
+
+    <!-- Get in Touch -->
+
+    <div class="contact">
+        <h1>Get in Touch</h1>
+        <p>Thank you for taking the time to view my portfolio and I'm always looking for new opportunities.</p>
+        <p>Please feel free to contact me at <a href="mailto:rhsolanki87@gmail.com">rhsolanki87@gmail.com</a> or on
+            <a href="https://www.linkedin.com/in/ronniesolanki/" target="_blank">LinkedIn</a>.</p>
+
+        <ul class="contact list-inline">
+            <li><a class="nav-item nav-link" href="https://www.linkedin.com/in/ronniesolanki/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li><a class="nav-item nav-link" href="mailto:rhsolanki87@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
+          <li><a class="nav-item nav-link" href="https://github.com/rsolanki87" target="_blank"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </div>
+
+    <!-- End Get in Touch -->
+
+   <footer>
+       <p><em>Created and designed by Ronnie Solanki</em></p>
+   </footer>
+
+</body>
+</html>
