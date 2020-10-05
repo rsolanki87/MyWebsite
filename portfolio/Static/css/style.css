@@ -191,6 +191,36 @@ body {
     row-gap: 10px;
 }
 
+.container-skills .row .col-4 {
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1);
+            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1);
+    background: #1D1E22;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 6px 15px;
+}
+
+.container-skills .row .col-sm-3 {
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1);
+            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1);
+    background: #1D1E22;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 6px 15px;
+}
+
+.container-skills .row .col-md-3 {
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1);
+            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1);
+    background: #1D1E22;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 6px 15px;
+}
+
 .container-skills .row .col-lg-2 {
     -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1);
             box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1);
